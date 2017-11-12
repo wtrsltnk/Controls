@@ -1,0 +1,41 @@
+cmake_minimum_required(VERSION 2.8)
+
+project(Controls)
+
+add_library(Controls
+    Button.cpp
+    Button.h
+    ComboBox.cpp
+    ComboBox.h
+    ComboListBox.cpp
+    ComboListBox.h
+    CommonControl.cpp
+    CommonControl.h
+    Control.cpp
+    Control.h
+    ControlError.cpp
+    ControlError.h
+    Controls.dsp
+    Controls.h
+    CustomControl.cpp
+    CustomControl.h
+    EditBox.cpp
+    EditBox.h
+    ListBox.cpp
+    ListBox.h
+    ListView.cpp
+    ListView.h
+    SplitterControl.cpp
+    SplitterControl.h
+    StatusBar.cpp
+    StatusBar.h
+    ToolBox.cpp
+    ToolBox.h
+    ToolBoxControl.cpp
+    ToolBoxControl.h
+    ToolBoxDlg.cpp
+    TreeView.cpp
+    TreeView.h
+    Window.cpp
+    Window.h
+    )
